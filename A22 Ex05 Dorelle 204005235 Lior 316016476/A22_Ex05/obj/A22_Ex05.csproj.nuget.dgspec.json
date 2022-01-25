@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\C#\\Ex05\\A22 Ex05 Dorelle 204005235 Lior 316016476\\A22_Ex05\\A22_Ex05.csproj": {}
+  },
+  "projects": {
+    "C:\\C#\\Ex05\\A22 Ex05 Dorelle 204005235 Lior 316016476\\A22_Ex05\\A22_Ex05.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\C#\\Ex05\\A22 Ex05 Dorelle 204005235 Lior 316016476\\A22_Ex05\\A22_Ex05.csproj",
+        "projectName": "A22_Ex05",
+        "projectPath": "C:\\C#\\Ex05\\A22 Ex05 Dorelle 204005235 Lior 316016476\\A22_Ex05\\A22_Ex05.csproj",
+        "packagesPath": "C:\\Users\\dorel\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\Ex05\\A22 Ex05 Dorelle 204005235 Lior 316016476\\A22_Ex05\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dorel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

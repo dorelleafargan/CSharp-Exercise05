@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RpTq1DUq0JlVrf+CegZbexqW2hNe8EONRYGKBm+yXWDNT5CNaU+sKwBBoyztcMbLyGK8vSNDYXaSMrs7hYtrJg==",
+  "success": true,
+  "projectFilePath": "C:\\C#\\Ex05\\A22 Ex05 Dorelle 204005235 Lior 316016476\\A22_Ex05\\A22_Ex05.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dorel\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
