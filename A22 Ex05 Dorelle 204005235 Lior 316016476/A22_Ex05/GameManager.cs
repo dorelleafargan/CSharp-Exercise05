@@ -92,7 +92,7 @@
 
             if (isLastGuess)
             {
-                printLosingMsg();
+                m_GameForm.m_WinningGuess.DisplayWinningGuess(m_Logic.WinningCombination);
             }
             else
             {
@@ -101,45 +101,9 @@
             }
         }
 
-        private void printLosingMsg()
-        {
-            m_GameForm.m_WinningGuess.DisplayWinningGuess(m_Logic.WinningCombination);
-            if (MessageBox.Show(
-@"Game Finished, you lost
-Restart Game?"
-                , "You Lost"
-                , MessageBoxButtons.YesNo
-                , MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                restartGame();
-            }
-            else
-            {
-                m_GameForm.Close();
-            }
-        }
-
         private void enteredPinIsCurrect()
         {
             m_GameForm.m_WinningGuess.DisplayWinningGuess(m_Logic.WinningCombination);
-            printWinningMsg();
-        }
-
-        private void printWinningMsg()
-        {
-            if (MessageBox.Show(
-@"Game Finished, you guessed correctly
-Restart Game?"
-                , "You Won"
-                , MessageBoxButtons.YesNo
-                , MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                restartGame();
-            }
-            else
-            {
-                m_GameForm.Close();
-            }
         }
 
         private void restartGame()

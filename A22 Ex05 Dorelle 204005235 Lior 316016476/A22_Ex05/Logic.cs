@@ -14,7 +14,6 @@
         private int m_AmountOfButtonsPickedOnCurrentIndex = 0;
 
         internal event EventHandler AllButtonsSelected;
-
         internal Logic()
         {
             m_WinningCombination = new Color[k_GuessLength];
